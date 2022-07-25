@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Weight Converter</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1 class="heading">Weight Converter</h1><br>
+ 
+    
+    <form  id="weight-form">
+
+      <div class="input-group">
+       <input type="number" id="weight" placeholder="Enter your weight in kg"><br><br>
+      </div>
+
+      <div class="submit">
+        <input type="submit" id="submit" name="submit" value="Convert">
+      </div><br>
+
+    </form>   
+
+
+    <!-- Loading gif -->
+    <!-- <div id="loading">
+      <img src="img/loading.gif" alt="">
+    </div> -->
+  
+
+
+      <!-- Results -->
+     <div id="results"> 
+        <div class="form-group" id="conversions">
+          <span class="pounds"> Pounds: </span>
+          <input type="number" class="form-control" id="pounds" disabled>
+        </div><br>
+
+        <div class="form-group" id="conversions">
+          <span class="ounces"> Ounces: </span>
+          <input type="number"  class="form-control" id="ounces" disabled>
+        </div><br>
+
+        <div class="form-group" id="conversions">
+          <span class="grams"> Grams: </span>
+          <input type="number"  class="form-control" id="grams" disabled>
+        </div><br>
+    </div>
+
+
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
